@@ -1,0 +1,69 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="lndStyle.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<title>To Do List Project</title>
+</head>
+    
+    <body>
+    <!-- LANDING PAGE -->
+
+    <div class="container landing-pg">
+    	<h1 id="pgHeader">Hello, welcome to the app</h1>
+    	<div id="lndAction">
+    		<button class="lndBtn" id="crBtn">Create Profile</button>
+    		<button class="lndBtn" id="lgBtn">Log in</button>
+    		<p id="fgtPass">forgot password</p>
+    	</div>
+
+    	<div id="crProfile">
+    		<p>Enter username</p>
+    		<input type="text" name="username">
+    		<p>Enter password</p>
+    		<input type="text" name="password">
+    		<p>enter expense</p>
+    		<input type="text" name="expense">
+    		<br>
+    		<button id="sbProfile" class="profileBtn">Submit</button>
+    		<button id="ccProfile" class="profileBtn">cancel</button>
+    	</div>
+    	<div id="user">
+    		<p>Enter user Name</p>
+       		<input type="text" Name="username" />
+       		<p>Enter Email address</p>
+       		<input type="email" Name="email" />
+       		<br>
+       		<button id="lgSubmit">submit</button>
+       	</div>
+    </div>
+
+    <!--- HOME PAGE -->
+    <div class="continer bg">
+	<div id="holder">
+        <h3>Weekly Revenue</h3>
+        <input type="text" id="rev">
+        <h3>Monthly Expense</h3>
+        <p>rent</p><input type="text" id="rent" />
+        <p>car note</p><input type="text" id="cnote" />
+        <p>phone bill</p><input type="text" id="pbill" />
+        <p>misc</p><input type="text" id="misc"/>
+
+
+		
+        <br><input type="submit" id="button" value="submit">
+    </div>
+       <div  id="dp">
+       	<h2>Weekly Expense</h2>
+       	<p>what you should spend each week</p>
+       </div>
+    </div>
+
+ 
+
+    
+
+
+        <script src='debt.js'></script>
+    </body></html>

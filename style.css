@@ -1,0 +1,28 @@
+#crProfile input[type="text"] {
+}
+
+div#crProfile {
+    width: 500px;
+    background: red;
+    position: relative;
+    /* top: 0; */
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+button.landBtn {
+    position: relative;
+    top: 300px;
+    padding: 25px;
+    display: block;
+    width: 300px;
+    border-radius: 36px;
+    outline: none;
+    border: none;
+    margin: 15px auto;
+}
+
+.bg {
+    display: none;
+}

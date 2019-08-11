@@ -1,0 +1,94 @@
+.landing-pg 
+{
+    margin: auto;
+    background: grey;
+    text-align: center;
+    height: 100%;
+}
+
+#crProfile input[type="text"] {
+    width: 70%;
+    height: 40px;
+}
+
+div#crProfile {
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: none;
+}
+#crProfile p {
+    font-size: 21px;
+    text-transform: capitalize;
+    color: white;
+}
+
+#lndAction {
+    position: relative;
+    top: 300px;
+   
+}
+
+.lndBtn:hover
+{
+    background: black;
+    color: white;
+}
+.lndBtn
+{
+    padding: 25px;
+    display: block;
+    width: 300px;
+    border-radius: 36px;
+    outline: none;
+    border: none;
+    margin: 15px auto;
+
+}
+
+#fgtPass:hover{color: white;}
+#fgtPass 
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sbProfile
+{
+    margin-top: 20px;
+}
+
+#user button{margin-top: 10px;}
+#user {
+    position: absolute;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 250px;
+    display: none;
+}
+
+.bg 
+{
+    background: grey;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 20px;
+    padding-left: 25px;
+    color: white;
+    height: 100%;
+    display: none;
+
+}
+
+#holder{grid-column: 1/4;}
+#dp {grid-column: 5/12;}
