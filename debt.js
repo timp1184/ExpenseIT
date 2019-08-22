@@ -96,6 +96,15 @@ table.innerHTML =
     tblCont.appendChild(wklyGross);
 
 
+    
+    var ccProfileSub = document.getElementById('ccProfile');
+
+
+
+  
+    
+
+
     //buttons///
     var crBtn = document.getElementById('crBtn');
     var ccProfile = document.getElementById('ccProfile');
@@ -151,10 +160,36 @@ table.innerHTML =
       pgHeader.textContent = 'Hello, welcome to the app' 
     }
 
-    function submitProfile(){
-      hidePage(lndPage);
-      bg.style.display = 'grid';
+  function submitProfile(){
+    var username = document.getElementById('username').value;
+    var uInnerText = document.getElementById('username');
+    var expense = document.getElementById('expense').value;
+    var password = document.getElementById('password').value;
+    var regex = /[a-z]+/gm;
+    var numregex = /^[a-z]+[0-9]+/gm;
+    var Exist = regex.exec(username);
+    var Exist2 = numregex.exec(username);
+
+     if (username == Exist2 ||  username == Exist ){
+        alert(`username ${username} has been saved`);
+        uInnerText.value = '';
+      }else{
+        alert('invalid username');
+      }
+
+       
+
+
+
+    
+  
+    
+  
+    
+      /*hidePage(lndPage);
+      bg.style.display = 'grid';*/
     }
+    
 
     function login(){
 
